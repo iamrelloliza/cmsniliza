@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lemon&family=Quicksand:wght@700&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 20px 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box; 
+    
+    
+}
+header{
+    background-color: #436850;
+   position: fixed;
+   height: 50px;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 23px 120px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100;
+   padding-left: 0px;
+   font-family: 'Quicksand', sans-serif;
+}
+
+
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    box-sizing: border-box;
+    margin-top: 15px; 
+}
+
+nav ul li a{
+    
+    text-decoration: none;
+    color: #F8F4EC;
+    font-weight: 500;
+    font-size: 20px;
+    box-sizing: border-box; 
+    margin-left: 35px ;
+    transition: 0.3s;
+}
+
+ nav ul li a:hover,
+ nav ul li a.active {
+    color: #ADBC9F;
+  }
+
+.logo{
+    margin-top: 10px;
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 30px !important;
+    text-decoration: none;
+    
+}
+
+.logo :hover {
+   color: #ADBC9F ;
+ }
+
+
+
+
+.writing{
+    font-family: 'Lemon', serif;
+    text-align: center;
+    color: #436850;
+    font-size: 100px;
+    line-height: 100px;
+    
+}
+
+.line{
+    height: 30px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,151,233,1) 100%);
+}
+
+.col{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+body{
+    background-color: #ADBC9F;
+}
+.image{
+    flex: 1;
+    margin-right: -200px;
+    overflow: hidden;
+    
+}
+.image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    height: 700px;
+    margin-left: 40px;
+   
+    
+}
+image img:hover{
+    transform: scale(1.2);
+
+}
+.content{
+    flex: 1;
+    margin-top: 0px;
+}
+.content h2{
+    font-size: 37px;
+    margin-bottom: 15px;
+    color: #436850;
+    font-family: 'Lemon', sans-serif;
+    justify-content: flex-start;
+
+}
+.content h3{
+    font-size: 33px;
+    margin-bottom: 15px;
+    color: #B19470;
+    font-family: 'Lemon', sans-serif;
+    justify-content: flex-start;
+
+}
+
+.content p{
+    font-size: 30px;
+    line-height: 1.5;
+    color : #F8F4EC ;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+
+
+.section{
+    background: #ADBC9F;
+    padding-left: 100px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+.divide{
+
+    width: 120px;
+}
+
+
+
+  .col1{
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.section2{
+    background: #436850;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: 200px;
+   
+    
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .product-card {
+    border: 1px solid #707438;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #F8F4EC;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-info {
+    text-align: center;
+    padding: 20px;
+    font-family: 'quicksand', serif;
+    color: #436850;
+  }
+  
+  .product-info h2 {
+    margin-top: 0;
+  }
+  
+  .product-info p {
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ADBC9F; 
+  }
+  
+  .button {
+    background-color: #ADBC9F;
+    color: #FBF6EE;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+    font-family: 'Quicksand', serif;
+  }
+
+  .button:hover {
+    background: #BB9CC0;
+   
+  }
+
